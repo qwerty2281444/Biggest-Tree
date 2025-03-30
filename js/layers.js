@@ -378,7 +378,6 @@ const LAYER_DATA = {
 		amtName: "mastery bricks",
 		getAmt() { return player.mb.points },
 		shown() { return player.c.unl },
-
 	},
 }
 
