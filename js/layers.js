@@ -367,6 +367,19 @@ const LAYER_DATA = {
 		getAmt() { return player.hs.points },
 		shown() { return player.mb.unl },
 	},
+
+	c: {
+		branches: ["mb", "ge","ma"],
+		getReq() { return new Decimal(98) },
+		res: "cycles",
+		type: "normal",
+		exp: new Decimal(.1),
+		row: 8,
+		amtName: "mastery bricks",
+		getAmt() { return player.mb.points },
+		shown() { return player.c.unl },
+
+	},
 }
 
 function rowReset(row, layer) {
