@@ -595,6 +595,7 @@ function rowReset(row, layer) {
 			player.ma = start.ma;
 			break;
 	}
+		
 }
 
 function getLayerGainMult(layer) {
